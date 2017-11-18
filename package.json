@@ -6,6 +6,7 @@
   "author": "Andrea Parodi <andrea@parro.it>",
   "license": "MIT",
   "files": [
+    "src",
     "index.js",
     "example.js"
   ],
@@ -24,9 +25,13 @@
   },
   "devDependencies": {
     "@std/esm": "^0.16.0",
+    "ai-concat": "^1.1.0",
     "documentation": "^5.3.3",
     "linterjs": "^1.11.0",
     "tap-colorize": "^1.2.0",
     "tape-async": "^2.3.0"
+  },
+  "dependencies": {
+    "ai-from-stream": "^1.0.0"
   }
 }

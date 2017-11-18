@@ -1,3 +1,1 @@
-export default function aiNode() {
-  return 42;
-}
+export * from "./src/fs";
