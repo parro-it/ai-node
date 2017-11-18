@@ -1,3 +1,3 @@
-const $package_var = require("$package_name");
+const aiNode = require("ai-node");
 
-console.log({ $package_var });
+console.log({ aiNode });
