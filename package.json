@@ -1,6 +1,6 @@
 {
   "name": "ai-node",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Node wrappers that returns async iterables and promises.",
   "repository": "parro-it/ai-node",
   "author": "Andrea Parodi <andrea@parro.it>",
