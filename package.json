@@ -1,11 +1,15 @@
 {
   "name": "ai-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node wrappers that returns async iterables and promises.",
   "repository": "parro-it/ai-node",
   "author": "Andrea Parodi <andrea@parro.it>",
   "license": "MIT",
-  "files": ["src", "index.js", "example.js"],
+  "files": [
+    "src",
+    "index.js",
+    "example.js"
+  ],
   "scripts": {
     "test": "node -r @std/esm test.js | tap-colorize - && linterjs .",
     "doc": "documentation readme index.js --section=API"
