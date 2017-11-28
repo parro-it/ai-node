@@ -11,7 +11,7 @@
     "example.js"
   ],
   "scripts": {
-    "test": "node --harmony_async_iteration -r @std/esm test.js | tap-colorize - && linterjs .",
+    "test": "node -r @std/esm test.js | tap-colorize - && linterjs .",
     "doc": "documentation readme index.js --section=API"
   },
   "engines": {
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@std/esm": "^0.16.0",
-    "ai-concat": "^1.1.0",
+    "ai-concat": "^1.3.0",
     "documentation": "^5.3.3",
     "linterjs": "^1.11.0",
     "tap-colorize": "^1.2.0",
